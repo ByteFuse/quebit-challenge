@@ -246,9 +246,9 @@ Use Peewee to write a query to select rows from the `individual_data` table with
 | Camera IP Address | Zones to ignore |
 |---------------|-------------|
 | 172.30.15.52  | 5, 6        |
-| 172.30.15.53  | 1, 2, 3, 8  |
+| 172.30.15.53  | 1, 3, 8  |
 | 172.30.15.54  | 3, 4, 5, 6  |
-| 172.30.15.55  | 7, 8        |
+| 172.30.15.55  | 7, 8, 6      |
 
 #### 1.2 Map detector zones to turning movements
 Use the information provided in the previous section to map the remaining detector zones of each camera to a turning movement (route). Use Python functions, classes or structures of your choice to obtain the resulting turning movements. Do not attempt to add the route information to the remote DB. It should be sufficient to store it locally in memory.
